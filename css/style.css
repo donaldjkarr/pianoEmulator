@@ -6,19 +6,130 @@ nav {
 	color: white;
 }
 
-.white-key {
+/*.white-key {
 	height: 50px;
-	width: 200px;
+	width: 250px;
 	background-color: white;
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
+	z-index: -1;
+	margin: 0;
 }
 
 .black-key {
 	height: 50px;
 	width: 175px;
 	background-color: black;
-	transform-origin: 100%
-	transform: rotate(270deg);
+	z-index: 5;
+	margin: 0;
+}*/
+
+#lower-divide {
+	display: flex;
+}
+
+#c {
+	height: 50px;
+	width: 50px;
+/*	margin: 5px;
+*/	float: left;
+	background-color: yellow;
+	z-index: -1;
+}
+
+#c-sharp {
+	height: 50px;
+	width: 100px;
+/*	margin: 5px;
+*/	float: left;
+	background-color: red;
+	z-index: 5;
+}
+
+#d {
+	height: 50px;
+	width: 50px;
+/*	margin: 5px;
+*/	float: left;
+	background-color: yellow;
+	z-index: -1;
+}
+
+#d-sharp {
+	height: 50px;
+	width: 50px;
+/*	margin: 5px;
+*/	float: left;
+	background-color: red;
+}
+
+#e {
+	height: 50px;
+	width: 50px;
+/*	margin: 5px;
+*/	float: left;
+	background-color: yellow;
+	z-index: -1;
+}
+
+#f {
+	height: 50px;
+	width: 50px;
+/*	margin: 5px;
+*/	float: left;
+	background-color: yellow;
+	z-index: -1;
+}
+
+#f-sharp {
+	height: 50px;
+	width: 50px;
+/*	margin: 5px;
+*/	float: left;
+	background-color: red;
+}
+
+#g {
+	height: 50px;
+	width: 50px;
+/*	margin: 5px;
+*/	float: left;
+	background-color: yellow;
+	z-index: -1;
+}
+
+#g-sharp {
+	height: 50px;
+	width: 50px;
+/*	margin: 5px;
+*/	float: left;
+	background-color: red;
+}
+
+#a {
+	height: 50px;
+	width: 50px;
+/*	margin: 5px;
+*/	float: left;
+	background-color: yellow;
+	z-index: -1;
+}
+
+
+#a-sharp {
+	height: 50px;
+	width: 50px;
+/*	margin: 5px;
+*/	float: left;
+	background-color: red;
+}
+
+#b {
+	height: 50px;
+	width: 50px;
+/*	margin: 5px;
+*/	float: left;
+	background-color: yellow;
+	z-index: -1;
 }
